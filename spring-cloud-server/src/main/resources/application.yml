@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: config-server
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/dheimy00/spring-cloud-server
+          username: dheimy00
+          password: London@9812
+          default-label: main
+
+server:
+  port: 9196
+  
+    
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost  
