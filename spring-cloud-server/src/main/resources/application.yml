@@ -8,7 +8,7 @@ spring:
         git:
           uri: https://github.com/dheimy00/spring-cloud-server
           username: dheimy00
-          password: London@9812
+          password: ********
           default-label: main
 
 server:
